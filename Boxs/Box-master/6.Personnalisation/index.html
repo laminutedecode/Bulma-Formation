@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bulma</title>
+</head>
+<body>
+   <!-- 
+    1) dans le terminal npm init
+  2) npm install node-sass --save-dev
+  3) npm install bulma --save-dev 
+  4) crée dossier sass
+  5) Créer dans le dossier sass un fichier style.scss 
+  6) dans le fichier style.sass écrire:
+  @import "../node_modules/bulma/bulma.sass"
+  7) linker un feuille de style css/style.css 
+  8) copier au niveau des script dans le package.json:
+    "css-build": "node-sass --omit-source-map-url sass/style.scss css/style.css",
+  "css-watch": "npm run css-build -- --watch",
+  "start": "npm run css-watch"
+  9) dans le terminal npm run css-build
+  10) dans le terminal npm start
+-->
+
+<h1 class="title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, ratione.</h1>
+
+
+<!-- changer une classe de bulma -->
+<button class="button is-primary">Bouton</button>
+<h3 class="title is-size-1">Lorem ipsum dolor sit amet.</h3>
+
+
+
+
+
+
+
+</body>
+</html>
